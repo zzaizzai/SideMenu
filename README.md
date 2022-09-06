@@ -1,3 +1,3 @@
-showing side menu
+showing side menu with drag
 
-![Sep-07-2022 01-44-36](https://user-images.githubusercontent.com/69841333/188692654-ffe22e75-9336-4488-8805-58640db8cc89.gif)
+![Sep-07-2022 01-51-49](https://user-images.githubusercontent.com/69841333/188694380-10013449-42de-4c69-b171-29514fe5cd6c.gif)
