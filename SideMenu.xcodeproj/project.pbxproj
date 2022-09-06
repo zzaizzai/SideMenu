@@ -14,7 +14,7 @@
 		A67427C128C79BCD00ED0F8E /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67427C028C79BCD00ED0F8E /* SideMenu.swift */; };
 		A67427C328C79BE800ED0F8E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67427C228C79BE800ED0F8E /* MainView.swift */; };
 		A67427C628C79F4900ED0F8E /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = A67427C528C79F4900ED0F8E /* SDWebImageSwiftUI */; };
-		A67427C828C7B0C700ED0F8E /* READEME.md in Resources */ = {isa = PBXBuildFile; fileRef = A67427C728C7B0C700ED0F8E /* READEME.md */; };
+		A67427C828C7B0C700ED0F8E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A67427C728C7B0C700ED0F8E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		A67427B928C79BAE00ED0F8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A67427C028C79BCD00ED0F8E /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 		A67427C228C79BE800ED0F8E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
-		A67427C728C7B0C700ED0F8E /* READEME.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = READEME.md; sourceTree = "<group>"; };
+		A67427C728C7B0C700ED0F8E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +43,7 @@
 		A67427A628C79BAD00ED0F8E = {
 			isa = PBXGroup;
 			children = (
-				A67427C728C7B0C700ED0F8E /* READEME.md */,
+				A67427C728C7B0C700ED0F8E /* README.md */,
 				A67427B128C79BAD00ED0F8E /* SideMenu */,
 				A67427B028C79BAD00ED0F8E /* Products */,
 			);
@@ -144,7 +144,7 @@
 			files = (
 				A67427BA28C79BAE00ED0F8E /* Preview Assets.xcassets in Resources */,
 				A67427B728C79BAE00ED0F8E /* Assets.xcassets in Resources */,
-				A67427C828C7B0C700ED0F8E /* READEME.md in Resources */,
+				A67427C828C7B0C700ED0F8E /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
