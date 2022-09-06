@@ -12,8 +12,11 @@ struct MainView: View {
     
     
     @State var offset : CGFloat = 0
+    @State var lastOffset : CGFloat = 0
     
     @GestureState var gestureOffset : CGFloat  = 0
+    
+    
     
     
     var body: some View {
@@ -31,6 +34,7 @@ struct MainView: View {
                         withAnimation {
                             self.showMenu = true
                             offset = sideMenuWidth
+                            lastOffset = offset
                         }
                     } label: {
                         Text("showMenu")
@@ -46,6 +50,7 @@ struct MainView: View {
                 .onTapGesture {
                         showMenu = false
                         offset = 0
+                    lastOffset = offset
                 }
                 
             }
@@ -69,7 +74,7 @@ struct MainView: View {
     func onChange() {
         let sideBarWith = getRect().width - 90
         
-        offset = (gestureOffset != 0) ? (gestureOffset < sideBarWith ? gestureOffset : offset) : offset
+        offset = (gestureOffset != 0) ? (gestureOffset + lastOffset < sideBarWith ? gestureOffset + lastOffset : offset) : offset
     }
     
     
@@ -100,6 +105,8 @@ struct MainView: View {
                 }
             }
         }
+        
+        lastOffset = offset
         
     }
 }
